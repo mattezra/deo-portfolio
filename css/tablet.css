@@ -1,0 +1,55 @@
+/*##################################################
+* TABLET VIEW
+####################################################*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+	/*///////////BANNER//////////////*/
+	.banner .col-sm-4.reset-padding.hidden-xs
+	{
+		background-position: right;
+	}
+
+	.banner-container img
+	{
+		height: 300px;
+		margin-top: 20px;
+	}
+
+	.banner-container h1
+	{
+		font-size: 55px;
+	}
+
+	.banner-container p.anchor
+	{
+		margin-top: 50px;
+	}
+
+	/*///////////KNOWLEDGE//////////////*/
+	.knowledge-container p
+	{
+		padding: 0px 30px;
+	}
+
+	.knowledge-container p.anchor
+	{
+		margin-top: 320px;
+	}
+
+	/*///////////WORKS//////////////*/
+	.works-container p
+	{
+		padding: 10px 40px 50px 40px;
+	}
+
+	/*///////////GALLERY PAGE//////////////*/
+	.gallery .gallery-container
+	{
+		padding-bottom: 10px;
+	}
+
+	.gallery .col-sm-3
+	{
+		min-height: 250px;
+	}
+}

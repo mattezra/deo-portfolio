@@ -1,0 +1,404 @@
+/*#############################################
+* RESETS
+##############################################*/
+.center {
+	margin: 0 auto !important;
+	text-align: center;
+}
+
+a:focus, button:focus {
+	outline: none;
+}
+
+.container {
+	max-width: 1500px !important;
+	padding: 0 25px !important;
+}
+
+.navbar-collapse.in
+{
+	overflow-y: hidden;
+}
+
+.reset-padding {
+	padding: 0 !important;
+}
+
+.reset-margin {
+	margin: 0 !important;
+}
+.opaque img:hover {
+	opacity: 0.5;
+	-webkit-transition: all 300ms ;
+	-moz-transition: all 300ms ;
+	-ms-transition: all 300ms ;
+	-o-transition: all 300ms ;
+	transition: all 300ms;
+	text-decoration: none;
+}
+
+.gray
+{
+	background-color: #333;
+}
+
+.red {
+	color: #c00303;
+}
+
+.textalign-center
+{
+	text-align: center !important;
+}
+
+.textalign-right
+{
+	text-align: right !important;
+}
+
+/*#############################################
+* GENERAL STYLES 
+##############################################*/
+body{
+	font-family: 'CaviarDreams';
+	overflow-y: scroll;
+	line-height: 20px;
+	overflow-x: hidden;
+	color: #fff;
+}
+
+h2
+{
+	font-family: 'Futurabc';
+	font-size: 40px;
+	padding-top: 100px;
+	margin-bottom: 70px;
+}
+
+p
+{
+	font-family: 'Futurabc';
+}
+
+/*Dropdown Menu*/
+.dropdown
+{
+	position: fixed;
+	right: 0%;
+	z-index: 2000; 
+}
+
+.dropdown button
+{
+	background: none;
+	border: none;
+	filter: drop-shadow(hsla(0, 0%, 0%, 1) 0px 1px 2px);
+	margin: 20px 20px 0px 0px;
+}
+
+.dropdown button i
+{
+	font-size: 20px;
+}
+
+.dropdown .dropdown-menu
+{
+	left: -62%;
+	min-width: inherit;
+	border: 0;
+	box-shadow: none;
+	background: none;
+	text-align: right;
+}
+
+.dropdown .dropdown-menu a
+{
+	color: #fff;
+	padding: 5px 0px;
+	font-family: 'CaviarDreamsB';
+}
+
+.dropdown .dropdown-menu a:hover, .dropdown .dropdown-menu a:focus, .dropdown .dropdown-menu a:active
+{
+	background: none;
+	color: #00a270;
+}
+
+/*///////////BANNER//////////////*/
+.banner
+{
+	width: 100%;
+	z-index: 800;
+	background-color: #000;
+	padding: 0px;
+}
+
+.banner .col-sm-4.reset-padding.hidden-xs
+{
+	background: url('../img/banner.jpg') no-repeat right center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+	position: fixed;
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+
+.banner .col-sm-4.reset-padding.hidden-xs.bg-colored
+{
+	-webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+    -webkit-transition: all 300ms ;
+	-moz-transition: all 300ms ;
+	-ms-transition: all 300ms ;
+	-o-transition: all 300ms ;
+	transition: all 300ms;
+}
+
+.banner .col-sm-8
+{
+	text-align: center;
+	margin-left: 33%;
+}
+
+/*.banner-container
+{
+	min-height: 700px;
+}*/
+
+.banner-container img
+{
+	margin: 0px auto;
+}
+
+.banner-container h1
+{
+	font-family: 'Futurabc';
+	font-size: 60px;
+	margin-top: 0px;
+}
+
+.banner-container p.anchor
+{
+	margin-top: 40px;
+}
+
+.banner-container a i
+{
+	font-size: 20px;
+	color: #00a270;
+	text-decoration: none;
+}
+
+/*///////////KNOWLEDGE//////////////*/
+/*.knowledge-container
+{
+	min-height: 700px;
+}*/
+
+.knowledge-container h2
+{
+	margin-bottom: 20px !important;
+}
+
+.knowledge-container span
+{
+	color: #00a270;
+}
+
+.knowledge-container h3
+{
+	margin-bottom: 50px;
+}
+
+.knowledge-container i
+{
+	font-size: 40px;
+	color: #00a270;
+}
+
+.knowledge-container p
+{
+	padding: 0px 60px;
+	text-align: justify;
+}
+
+.knowledge-container p.anchor
+{
+	text-align: center;
+	margin-top: 370px;
+}
+
+.knowledge-container p.anchor i
+{
+	font-size: 20px;
+	color: #00a270;
+	text-decoration: none;
+}
+
+/*///////////WORKS//////////////*/
+.works-container
+{
+	/*min-height: 700px;*/
+	padding-bottom: 20px;
+}
+
+.works-container img
+{
+	margin: 0px auto 80px auto;
+	height: 300px;
+}
+
+.works-container h3
+{
+	margin-top: 0px;
+}
+
+.works-container p
+{
+	padding: 10px 70px 60px 70px;
+	text-align: justify;
+}
+
+.works-container a
+{
+	color: #fff;
+	font-family: 'Futurabc';
+	border-radius: 50px;
+	padding: 10px 15px;
+	border: 1px solid #00a270;
+}
+
+.works-container a:hover, .works-container a:focus, .works-container a:active
+{
+	text-decoration: none;
+	background-color: #00a270;
+	-webkit-transition: all 300ms ;
+	-moz-transition: all 300ms ;
+	-ms-transition: all 300ms ;
+	-o-transition: all 300ms ;
+	transition: all 300ms;
+}
+
+/*///////////GALLERY PAGE//////////////*/
+.gallery
+{
+	background-color: #4c4a4a;
+	padding-bottom: 50px;
+}
+
+.gallery .gallery-container
+{
+	background-color: #0a1e25;
+	padding: 30px 15px 10px 15px;
+}
+
+.gallery .col-sm-3
+{
+	min-height: 270px;
+}
+
+.gallery img
+{
+	margin: 0px auto;
+}
+
+.gallery .nav-tabs
+{
+	padding: 0px 15px 30px 15px;
+	border: none;
+}
+
+.gallery .nav-tabs li
+{
+	width: 50%;
+	text-align: center;
+}
+
+.gallery .nav-tabs li a
+{
+	padding: 5px 10px;
+	font-family: 'Futurabc';
+	font-size: 25px;
+	color: #55eca0;
+	border: none;
+	background-color: #0a1e25;
+}
+
+.gallery .nav-tabs li.active a
+{
+	background-color: #55eca0;
+	color: #000;
+}
+
+.gallery .nav-tabs li.active a:hover, .gallery .nav-tabs li.active a:focus, .gallery .nav-tabs li.active a:active
+{
+	background-color: #55eca0;
+	color: #000;
+	border: none;
+}
+
+.gallery .nav-tabs li a:hover, .gallery .nav-tabs li a:focus, .gallery .nav-tabs li a:active
+{
+	background-color: #4c4a4a;
+	-webkit-transition: all 300ms ;
+	-moz-transition: all 300ms ;
+	-ms-transition: all 300ms ;
+	-o-transition: all 300ms ;
+	transition: all 300ms;
+	text-decoration: none;	
+}
+
+.gallery p 
+{
+	text-align: center;
+	margin-top: 20px;	
+}
+
+.gallery a.back-to-top
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+.gallery a.back-to-top:hover, .gallery a.back-to-top:focus, .gallery a.back-to-top:active
+{
+	color: #55eca0;
+	-webkit-transition: all 300ms ;
+	-moz-transition: all 300ms ;
+	-ms-transition: all 300ms ;
+	-o-transition: all 300ms ;
+	transition: all 300ms;
+}
+
+/*///////////404//////////////*/
+.pagenotfound
+{
+	width: 100%;
+	height: 100vh;
+	background-color: #000;
+	text-align: center;
+}
+
+.pagenotfound h1
+{
+	margin-top: 25%;
+}
+
+.pagenotfound h2
+{
+	padding-top: 0px;
+	margin: 0px 0px 10px 0px;
+}
+
+.pagenotfound p
+{
+	line-height: 20px;
+} 
+
+.pagenotfound p a, .pagenotfound i
+{
+	color: #55eca0;
+}

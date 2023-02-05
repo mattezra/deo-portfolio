@@ -1,0 +1,43 @@
+@font-face {
+    font-family:'Century Gothic';
+    src: url('Century-Gothic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('fontawesome-webfont.eot');
+    src: url('fontawesome-webfont.eot') format('embedded-opentype'),
+         url('fontawesome-webfont.woff') format('woff'),
+         url('fontawesome-webfont.ttf') format('truetype'),
+         url('fontawesome-webfont.svg#FontAwesome') format('svg');
+}
+
+@font-face {
+    font-family:'CaviarDreams';
+    src: url('CaviarDreams.ttf');
+    src: url('CaviarDreams.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'CaviarDreamsB';
+    src: url('CaviarDreams_Bold.ttf');
+    src: url('CaviarDreams_Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'CaviarDreamsBI';
+    src: url('CaviarDreams_BoldItalic.ttf');
+    src: url('CaviarDreams_BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'CaviarDreamsI';
+    src: url('CaviarDreams_Italic.ttf');
+    src: url('CaviarDreams_Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Futurabc';
+    src: url('Futurabc.ttf');
+    src: url('Futurabc.ttf') format('truetype');
+}
